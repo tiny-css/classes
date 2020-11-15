@@ -4,7 +4,7 @@
   "description": "The all the available classes of tiny-css stylesheet",
   "main": "index.js",
   "scripts": {
-    "build": "rollup"
+    "build": "rollup -c"
   },
   "keywords": [
     "css",
