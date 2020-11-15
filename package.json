@@ -1,0 +1,23 @@
+{
+  "name": "@tiny-css/classes",
+  "version": "1.0.0",
+  "description": "The all the available classes of tiny-css stylesheet",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup"
+  },
+  "keywords": [
+    "css",
+    "css",
+    "classnames",
+    "tiny-css",
+    "tiny-css-classnames"
+  ],
+  "author": "KR Tirtho",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.1.0",
+    "rollup": "^2.33.2",
+    "typescript": "^4.0.5"
+  }
+}
