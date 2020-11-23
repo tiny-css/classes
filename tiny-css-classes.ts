@@ -1,4 +1,5 @@
 export const tinyCssClasses = {
+    /* ===========Positioning & utils========= */
     /* display */
     dyFlex: "d-flex",
     dGrid: "d-grid",
@@ -78,4 +79,36 @@ export const tinyCssClasses = {
     textSolid: "text-solid",
     textUnderline: "text-underline",
     textWavy: "text-wavy",
+
+    /* =========Components=========== */
+    // button
+    btn: "btn", 
+    btnPrimary: "btn-primary",
+    btnSecondary: "btn-secondary",
+    btnSuccess: "btn-success", 
+    btnDanger: "btn-danger",
+    btnChill: "btn-chill",
+    btnClose: "btn-close",
+    btnBlock: "btn-block",
+    // lists
+    ul:"ul",
+    ol:"ol",
+    ulWithBg:"ul-with-bg",
+    olWithBg:"ol-with-bg",
+    // table
+    table: "table",
+    thead: "thead",
+    tbody: "tbody",
+    tfoot: "tfoot",
+    tr: "tr",
+    td: "td",
+    th: "th",
+    tdPrimary: "td-primary",
+    thPrimary: "th-primary",
+    tdSecondary: "td-secondary",
+    thSecondary: "th-secondary",
+    tdSuccess: "td-success",
+    thSuccess: "th-success",
+    tdDanger: "td-danger",
+    thDanger: "th-danger",
 }

@@ -1,23 +1,29 @@
 {
   "name": "@tiny-css/classes",
-  "version": "1.0.0",
-  "description": "The all the available classes of tiny-css stylesheet",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "The all the available classes of tiny-css stylesheets",
+  "main": "./lib/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "tsc"
   },
+  "files": [
+    "/lib"
+  ],
   "keywords": [
-    "css",
-    "css",
-    "classnames",
     "tiny-css",
     "tiny-css-classnames"
   ],
-  "author": "KR Tirtho",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiny-css/classes.git"
+  },
+  "author": "KRTirtho",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-typescript": "^6.1.0",
-    "rollup": "^2.33.2",
     "typescript": "^4.0.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tiny-css/classes/issues"
+  },
+  "homepage": "https://github.com/tiny-css/classes#readme"
 }
