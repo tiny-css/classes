@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/tiny-css/classes/issues"
   },
-  "homepage": "https://github.com/tiny-css/classes#readme"
+  "homepage": "https://github.com/tiny-css/classes#readme",
+  "dependencies": {
+    "css": "^3.0.0"
+  }
 }
